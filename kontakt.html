@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Intresseanmälan</title>
+</head>
+
+<body>
+  <h2>Intresseanmälan</h2>
+  <form action="mailto:oje.lindberg@outlook.com" method:"post" enctype="text/plain">
+    <p><strong>Vad är din relation till Olof?</strong></p>
+    <table>
+      <tr>
+        <td><input type="radio" id="inte" name="Relation" value="inte"></td>
+        <td><label for="inte">Känner honom inte</label></td>
+      <tr>
+        <td><input type="radio" id="lite" name="Relation" value="lite"></td>
+        <td><label for="lite">Känner honom lite</label></td>
+      </tr>
+      <tr>
+        <td><input type="radio" id="mycket" name="Relation" value="mycket"></td>
+        <td><label for="mycket">Känner honom alltför väl</label></td>
+      </tr>
+    </table>
+    <br>
+    <p><strong>Hur vill du bekämpa Olof?</strong></p>
+    <table>
+      <tr>
+        <td><input type="checkbox" id="frontend" name="Taktik" value="frontend"></td>
+        <td><label for="frontend">Utmana honom i front end programming</label></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="backend" name="Taktik" value="backend"></td>
+        <td><label for="backend">Utmana honom i back end programming</label></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="perfekt" name="Taktik" value="perfekt"></td>
+        <td><label for="perfekt">Visa honom den perfekta hemsidan</label></td>
+      </tr>
+    </table>
+    <br>
+    <p><strong>Hur bra är du på att programmera?</strong></p>
+    <label for="skills">Keff</label>
+    <input type="range" id="skills" name="Skills" min="0" max="10" step="5">
+        <label for="skills">Grym</label>
+<br>
+<br>
+    <p><strong>Vilken färg vill du ha på din bandana?</strong></p>
+    <table>
+      <tr>
+        <td><label for="main">Primär färg</label></td>
+        <td><input type="color" id="main" name="Bandana" value="#f6b73c"></td>
+      </tr>
+      <tr>
+        <td><label for="secondary">Sekundär färg</label></td>
+        <td><input type="color" id="secondary" name="Bandana" value="#e66465"></td>
+      </tr>
+    </table>
+    <br>
+  <p><strong>Skapa ett konto</strong></p>
+    <table>
+      <tr>
+        <td><label>Namn</label></td>
+        <td><input type="text" name="Namn" value=""></td>
+      </tr>
+      <tr>
+        <td><label>Email</label></td>
+        <td><input type="email" name="Email" value=""></td>
+      </tr>
+      <tr>
+        <td><label>Lösenord</label></td>
+        <td><input type="password" name="Lösenord" value=""></td>
+      </tr>
+    </table>
+    <br>
+    <p><strong>Vill du lämna ett meddelande?</strong></p>
+    <textarea name="Meddelande" rows="5" cols="30"></textarea>
+    <br>
+    <input type="submit">
+  </form>
+</body>
+
+</html>
